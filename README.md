@@ -1,4 +1,14 @@
 # uhostrepo
-Starter Chef Repository
+Starter Chef Repository for uhostserver
 
-Used with uhostserver
+## Usage
+
+````
+./setuprepo.sh -h <uhost servername> -k <path to key file>
+````
+
+## Test
+
+````
+knife node list
+````
